@@ -1,0 +1,48 @@
+{
+  "name": "tilda-template",
+  "version": "1.0.0",
+  "description": "Сбока для Tilda",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "gulp",
+    "test": "gulp test",
+    "fonts": "gulp fonts",
+    "images": "gulp images"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nookimy/tilda-template.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nookimy/tilda-template/issues"
+  },
+  "homepage": "https://github.com/nookimy/tilda-template#readme",
+  "devDependencies": {
+    "browser-sync": "^2.29.1",
+    "del": "^7.0.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-file-include": "^2.3.0",
+    "gulp-fonter": "^0.3.0",
+    "gulp-html-beautify": "^1.0.1",
+    "gulp-if": "^3.0.0",
+    "gulp-newer": "^1.4.0",
+    "gulp-notify": "^4.0.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-posthtml": "^3.0.5",
+    "gulp-replace": "^1.1.4",
+    "gulp-sass": "^5.1.0",
+    "gulp-svgo": "^2.2.1",
+    "gulp-tinypng-extended": "^3.0.3",
+    "gulp-ttf2woff2": "^4.0.1",
+    "newer": "^0.1.5",
+    "posthtml-include": "^1.7.4",
+    "sass": "^1.63.3",
+    "sharp": "^0.32.1",
+    "svgo": "^3.0.2"
+  }
+}

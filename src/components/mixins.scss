@@ -1,0 +1,36 @@
+@mixin container {
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: 1200px;
+
+    @media (min-width: $md-width) {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+@mixin mp($list-margin: 0, $list-padding: 0) {
+    margin: $list-margin;
+    padding: $list-padding;
+}
+
+@mixin list($list-margin: 0, $list-padding: 0, $list-style: none) {
+    margin: $list-margin;
+    padding: $list-padding;
+    list-style: $list-style;
+}
+
+.visually-hidden:not(:focus):not(:active) {
+    position: absolute;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    margin: -1px;
+    padding: 0;
+    width: 1px;
+    height: 1px;
+    border: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+}
